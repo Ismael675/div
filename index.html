@@ -1,106 +1,153 @@
-<html>
-<link rel="stylesheet" href="styles.css">
+<!DOCTYPE html>
+<html lang="es">
 <head>
-    <title>Reparaciónes de Moviles S.L</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página de Informática</title>
+    <style>
+        /* Estilos personalizados para cada div */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        #header {
+            background-color: #1a1a1a;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            border-bottom: 3px solid #333;
+            font-family: 'Verdana', sans-serif;
+        }
+
+        #enlaces {
+            width: 220px;
+            background-color: #f0e68c;
+            padding: 20px;
+            float: left;
+            border-right: 2px solid #333;
+            font-family: 'Verdana', sans-serif;
+        }
+
+        #enlaces ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        #enlaces ul li {
+            margin-bottom: 10px;
+        }
+
+        #enlaces a {
+            text-decoration: none;
+            color: #000;
+        }
+
+        #enlaces a:hover {
+            text-decoration: underline;
+        }
+
+        #contenido {
+            margin-left: 240px;
+            padding: 20px;
+            background-color: #e6f7ff;
+            border: 2px solid #00aaff;
+            border-radius: 8px;
+            font-family: 'Verdana', sans-serif;
+        }
+
+        #contenido img {
+            border-radius: 5px;
+        }
+
+        #footer {
+            clear: both;
+            background-color: #1a1a1a;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+            font-weight: bold;
+            font-family: 'Verdana', sans-serif;
+        }
+
+        h2, h3 {
+            color: #333;
+        }
+
+        /* Galería de imágenes */
+        .galeria {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .galeria img {
+            width: 300px;
+            height: auto;
+        }
+    </style>
 </head>
+<body>
 
-<body style="display: flex; flex-flow: row wrap; margin: 0;">
-
-    <div id="ReparaciónesdeMoviles" style="width: 28%; background-color: rgb(216, 56, 56); padding: 1%;">
-        <h1>Reparaciónes de Moviles S.L</h1>
-        <p>Somos es una empresa dedicada a la reparación de móviles, ofreciendo soluciones rápidas y confiables para
-            todo
-            tipo de marcas y modelos. Nuestro equipo técnico especializado realiza desde el cambio de pantallas y
-            baterías
-            hasta reparaciones más complejas, siempre con repuestos de calidad y garantía en cada servicio. Nos
-            enfocamos en
-            brindar confianza, rapidez y atención personalizada para que tu dispositivo vuelva a estar como nuevo.</p>
+    <!-- Encabezado principal -->
+    <div id="header">
+        <h1>Mi Mundo Informático</h1>
+        <h3>Explorando tecnología y programación</h3>
     </div>
 
-
-    <div id="Listadeservicios" style="width: 28%; background-color: rgb(88, 212, 16); padding: 1%;">
-        <h2>Lista de servicios</h2>
-        <ol>
-            <li>Cambio de pantallas</li>
-            <li>Sustitución de baterías</li>
-            <li>Reparación de puertos de carga</li>
-            <li>Arreglo de altavoces y micrófonos</li>
-            <li>Reparación de placas base</li>
-            <li>Actualización y reinstalación de software</li>
-        </ol>
+    <!-- Menú lateral -->
+    <div id="enlaces">
+        <h3>Enlaces útiles</h3>
+        <ul>
+            <li><a href="https://www.google.com" target="_blank">Google</a></li>
+            <li><a href="https://www.wikipedia.org" target="_blank">Wikipedia</a></li>
+            <li><a href="https://developer.mozilla.org" target="_blank">MDN Web Docs</a></li>
+        </ul>
     </div>
 
+    <!-- Contenido central -->
+    <div id="contenido">
+        <h2>Sobre mí</h2>
+        <p>Hola, soy Ismael, estudiante de 2º SMR y un apasionado de la informática. Me encanta aprender sobre
+            programación, redes y nuevas tecnologías. También disfruto creando pequeños proyectos y explorando
+            software libre.</p>
 
+        <h3>Mis gustos relacionados con la informática:</h3>
+        <ul>
+            <li>Programación en Python y JavaScript</li>
+            <li>Montar y configurar redes locales</li>
+            <li>Explorar hardware y construir PCs</li>
+        </ul>
 
-    <div id="Listadeventajascompetitivas" style="width: 70%; background-color: lightyellow; padding: 1%;">
+        <h3>Galería de imágenes:</h3>
+        <div class="galeria">
+            <img src="https://www.testdevelocidad.es/app/uploads/2023/10/image.psd68-765x.jpg" alt="Código de programación">
+            <img src="https://img.pccomponentes.com/pcblog/3764/tipos-ordenadores-sobremesa.jpg" alt="Cables de red">
+            <img src="https://img.computing.es/wp-content/uploads/2023/06/15103442/seguridad-2.jpg" alt="Estación de trabajo">
+        </div>
 
-        <h2>Lista de ventajas competitivas</h2>
+        <h3>Mis proyectos favoritos:</h3>
+        <p>He trabajado en varios proyectos personales de informática, como:</p>
         <ol>
-            <li>Técnicos especializados en todas las marcas</li>
-            <li>Repuestos de alta calidad</li>
-            <li>Garantía en cada reparación</li>
-            <li>Presupuestos claros y sin sorpresas</li>
-            <li>Atención rápida y personalizada</li>
-            <li>Servicio express en reparaciones comunes</li>
-
-        </ol>
-
-    </div>
-
-
-    <div id="Direcciónes" style="width: 28%; background-color: rgb(20, 36, 180); padding: 1%;">
-
-        <h2>Nuestra tienda</h2>
-        <ol>
-            <h2>Dirección</h2>
-            <ul>
-                <li>Calle Mayor 123, Local 4</li>
-                <li>46001, Valencia, España</li>
-            </ul>
-
-            <br>
-
-            <h2>Teléfono/WhatsApp</h2>
-            <ul>
-                <li>+34 600 123 456</li>
-            </ul>
-
-            <br>
-            <h2>Correo electronico</h2>
-            <ul>
-                <li>info@reparasmart.com</li>
-            </ul>
-
+            <li>Creación de un sitio web personal usando HTML, CSS y JavaScript.</li>
+            <li>Automatización de tareas con scripts en Python.</li>
+            <li>Montaje de un servidor local para pruebas de desarrollo web.</li>
         </ol>
 
+        <h3>Curiosidades del mundo informático:</h3>
+        <ul>
+            <li>El primer ordenador moderno fue creado en 1946 y se llamaba ENIAC.</li>
+            <li>Python es uno de los lenguajes más populares por su facilidad y versatilidad.</li>
+            <li>La seguridad informática es fundamental: aprende buenas prácticas desde temprano.</li>
+        </ul>
     </div>
 
-    <br>
+    <!-- Pie de página -->
+    <div id="footer">
+        Página creada por Ismael Sáez Hernández+ - 2º SMR
+    </div>
 
-    <img src="https://ultimainformatica.com/img/cms/TIENDAS/tienda%20de%20informatica%20ultima%20sur%20de%20tenerife-7.jpg"
-        alt="Tienda informatica" width="400" height="300">
-    <img src="https://ultimainformatica.com/img/cms/TIENDAS/tienda%20de%20informatica%20ultima%20sur%20de%20tenerife-6.jpg"
-        alt="Tienda informatica 2" width="400" height="300">
-    <img src="https://ultimainformatica.com/img/cms/TIENDAS/tienda%20de%20informatica%20ultima%20sur%20de%20tenerife-5.jpg"
-        alt="Tienda informatica 2" width="400" height="300">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</body>
 </html>
+

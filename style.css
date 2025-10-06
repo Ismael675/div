@@ -1,6 +1,17 @@
-#Listadeservicios{
-    width: 100%;
-    background-color: blueviolet;
-    text-align: center;
-    padding: 10%;
+
+#header {
+    border-bottom: 3px solid #333;
+}
+
+#enlaces {
+    border-right: 2px solid #333;
+}
+
+#contenido {
+    border: 2px solid #00aaff;
+    border-radius: 5px;
+}
+
+#footer {
+    font-weight: bold;
 }
